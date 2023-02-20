@@ -1,0 +1,201 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Poppins/Poppins-Regular.ttf);
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFirstFont;
+}
+   
+/* header {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    max-height: 100px;
+    color: white;
+    background-color: rgb(255, 194, 68);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 132px,274px,132px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: stretch;
+    justify-items: stretch;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 19;
+}  */
+
+header {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    display: flex;
+    max-height: 100px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(255, 194, 68);
+    align-items: center;
+    
+}
+
+.headerlogo img {
+  height: 70%;
+  width: 70%;
+  min-width: 150px;
+}
+
+header button {
+    background-color: rgb(0, 160, 130);
+    height: 44px;
+    padding: 0px 16px;
+    border-radius: 24px;
+    border: none;
+    font-weight: 700;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    box-shadow: 0 3px 5px 0 #0000001a;
+    min-width: 138px;
+    white-space: nowrap;
+} 
+
+header button a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    display: block;
+}
+.global-jumbotron-container {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin: 0 auto;
+    max-width: calc(1124px + 15%);
+    width: 100%;
+    box-sizing: border-box;
+    border-image-source: url(https\:\/\/res\.cloudinary\.com\/glovoapp\/image\/fetch\/\/q_auto\/https\:\/\/glovoapp\.com\/images\/waves\/address-jumbotron-wave-desktop\.svg);
+    background-clip: padding-box;
+    border-image-slice: 0 0 74;
+    border-bottom: 74px solid rgba(0, 0, 0, 0%);
+    max-width: 100%;
+    background-color: #FFC244FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 24px ;
+}
+.animation {
+    max-width: 452px;
+    aspect-ratio: 1.1150793651;
+    width: 100%;
+    height: auto;
+}
+
+.global-jumbotron__text-container {
+    max-width: 548px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    margin-right: 48px;
+    margin-left: 24px;
+}
+.global-jumbotrom_title {
+    color: black;
+    word-wrap: anywhere;
+    font-size: 58px;
+    line-height: 1.07;
+    font-weight: 700;
+    margin: 32px 0;
+}
+.global-jumbotron_subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300;
+    margin: 0 0 12px;
+}
+
+.address-container {
+    max-width: 548px;
+    width: 100%;
+    margin: 16px 0;
+}
+
+
+.address-input {
+    height: 50px;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 540px;
+}
+
+.address-input_container {
+    display: flex;
+    height: 50px;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    width: 100%;
+    background: white;
+    max-width: 540px;
+}
+.address-input__container__icon {
+        background: #00a082ff;
+        border-radius: 8px 0 0 8px;
+        height: 100%;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+}
+.address-input__container__input{
+    padding: 0 12px;
+    color: #c1c1c1ff;
+}
+.address-input__container__input--blinking {
+    display: none;
+}
+/* .current-location-wrapper {
+    min-height: 50px;
+} */
+/* .current-location--insideAddressInput {
+    top: 10px;
+    z-index: 2;
+    right: 20px;
+    position: absolute;
+} */
+
+.current-location {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #00a082ff;
+    display: flex;
+    /* grid-column-gap: 8px; */
+    /* -moz-column-gap: 8px; */
+    column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 2;
+    /* bottom: 10; */
+}
+
+/* .current-location__text{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #00a082ff;
+} */
