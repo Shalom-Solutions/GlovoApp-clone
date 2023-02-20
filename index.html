@@ -5,57 +5,208 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlovoApp Clone</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/64b79930a3.css" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="styles2.css">
+     <!-- our project just needs Font Awesome Solid + Brands -->
+  <link href="fontawesome-free-6.3.0-web/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome-free-6.3.0-web/css/brands.css" rel="stylesheet">
+  <link href="fontawesome-free-6.3.0-web/css/solid.csss" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" integrity="Integrity code" crossorigin="anonymous" /></head>
 <body>
+    <!-- header navigation  -->
+    <nav>
+        <div class="navlogo">
+        <img src="glovo-removebg-preview.png" alt="glovo logo">
+        </div>
+        <button type="submit"><a href="#">Get started</a></button>
+    </nav>
+<!-- body section -->
     <header>
-                <div class="headerlogo">
-                <img src="glovo-removebg-preview.png" alt="glovo logo">
+        <!-- 1st container -->
+        <section class="header-container">
+            <!-- 1st child container -->
+                <div class="header.animation">
+                    <video autoplay="autoplay" loop="loop" muted="muted" width="400px" height="380px">
+                        <source src="address-container-animation.webm" preload="auto" type="video/webm">
+                    </video>
                 </div>
-                <button type="submit"><a href="#">Get started</a></button>
-    </header>
-    <main>
-        <div class="global-jumbotron-container">
-            <div class="animation">
-                <video autoplay="autoplay" loop="loop" muted="muted" width="281px" height="252px">
-                    <source src="address-container-animation.webm" preload="auto" type="video/webm">
-                </video>
-            </div>
-            <div class="global-jumbotron_text-container">
-                <h1 class="global-jumbotrom_title">
-                    Food delivery and more
-                </h1>
-                <p class="global-jumbotron_subtitle">
-                    Groceries, shops, pharmacies, anything!
-                </p>
-                <div class="address-container">
-                    <!--  -->
-                    <div class="address-input">
-                        <div class="address-input_container">
-                            <div class="address-input__container__icon">
-                                <i class="fa-light fa-flag-swallowtail"></i>
-                            </div>
-                            <div class="address-input__container__input">
-                                <span class="address-input__container__input--blinking" >|</span>           
-                                      What's your address?
-                            </div>
-                        
-                                <div class="global-jumbotron_text-container">
-                                    <div class="current-location">
-                                        <i class="fa-thin fa-location-arrow"></i>
-                                        <div class="current-location__text">
-                                            Use current location
-                                          </div>
+            <!-- 2nd child container -->
+                    <article class="header_text-container">
+                        <h1 class="header_title">
+                            Food delivery and more
+                        </h1>
+                        <p class="header_subtitle">
+                            Groceries, shops, pharmacies, anything!
+                        </p>
+            <!-- Address container -->
+                            <div class="address-container">
+                                <div class="address-input-container">
+                                    <div class="address-input-container">
+                                        <div class="address-input-container-icon">
+                                            <i class="fal fa-flag-alt" style="font-size: 1.5em;"></i> 
+                                            </div>
+                                            <div class="address-input-container-placeholder">
+                                                What's your address?
+                                            </div>
+                                            <div class="current-location">
+                                                <i class="fal fa-location-arrow" style="font: 1em;"></i>                                                <div class="current-location-text">
+                                                    Use current location
+                                                  </div>
+                                            </div>
                                     </div>
                                 </div>
-                        
-                                
+                            </div>
+                     </article>
+
+        </section>
+    </header>
+    <main>
+        <section class="top-partners">
+            <h2 class="top-partners__title">Top restaurants and more in Glovo</h2>
+            <div class="top-partners-container">
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/txgzy5f119afvmq7znvp" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/txgzy5f119afvmq7znvp 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/txgzy5f119afvmq7znvp 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/txgzy5f119afvmq7znvp 128w" sizes="(min-width: 600px) 128px, 120px" alt="McDonald's" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">
+                        <div class="top-partners-title-wrapper">
+                            <h3 class="partners-title">
+                                     McDonald's
+                            </h3>
                         </div>
+                </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/u56iguujsgxttvzxpthn" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/u56iguujsgxttvzxpthn 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/u56iguujsgxttvzxpthn 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/u56iguujsgxttvzxpthn 128w" sizes="(min-width: 600px) 128px, 120px" alt="KFC" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">
+                    <div class="top-partners-title-wrapper">
+                        <h3 class="partners-title">
+                              KFC
+                        </h3>
                     </div>
                 </div>
-            </div>  
-        </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/akivf28yymtqggy5cxzl" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/akivf28yymtqggy5cxzl 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/akivf28yymtqggy5cxzl 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/akivf28yymtqggy5cxzl 128w" sizes="(min-width: 600px) 128px, 120px" alt="BurgerKing" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">                    <div class="top-partners-title-wrapper">
+                           <h3 class="partners-title">BurgerKing</h3> 
+                    </div>
+                </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/hvpjrukzrzcx2fr7aivr" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/hvpjrukzrzcx2fr7aivr 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/hvpjrukzrzcx2fr7aivr 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/hvpjrukzrzcx2fr7aivr 128w" sizes="(min-width: 600px) 128px, 120px" alt="Carrefour" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">                    <div class="top-partners-title-wrapper">
+                        <h3 class="partners-title">
+                            Carrefour
+                        </h3>
+                    </div>
+                </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/wbvnm1neh9bxeagj990c" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/wbvnm1neh9bxeagj990c 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/wbvnm1neh9bxeagj990c 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/wbvnm1neh9bxeagj990c 128w" sizes="(min-width: 600px) 128px, 120px" alt="PizzaHut" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">                    <div class="top-partners-title-wrapper">
+                        <h3 class="partners-title">
+                            PizzaHut
+                        </h3>
+                    </div>
+                </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/igq1ghjtalh1hzzu3wx1" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/igq1ghjtalh1hzzu3wx1 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/igq1ghjtalh1hzzu3wx1 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/igq1ghjtalh1hzzu3wx1 128w" sizes="(min-width: 600px) 128px, 120px" alt="PapaJohn's" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">                    <div class="top-partners-title-wrapper">
+                        <h3 class="partners-title">
+                           PapaJohn
+                        </h3>
+                    </div>
+                </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/vqhe8yxwvrbjq7dgjndb" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/vqhe8yxwvrbjq7dgjndb 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/vqhe8yxwvrbjq7dgjndb 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/vqhe8yxwvrbjq7dgjndb 128w" sizes="(min-width: 600px) 128px, 120px" alt="Subway" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">                    <div class="top-partners-title-wrapper">
+                        <h3 class="partners-title">
+                            Subway
+                        </h3>
+                    </div>
+                </div>
+                <div class="top-partners-title">
+                    <img src="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/zx7udzwuopreaoqarfhj" srcset="https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_3.0/Stores/zx7udzwuopreaoqarfhj 384w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_2.0/Stores/zx7udzwuopreaoqarfhj 256w, https://res.cloudinary.com/glovoapp/w_128,h_128,c_fill,b_transparent,f_auto,q_auto:low,dpr_1.0/Stores/zx7udzwuopreaoqarfhj 128w" sizes="(min-width: 600px) 128px, 120px" alt="TacoBell" width="128" height="121" data-test-id="top-partner-item-image" loading="lazy" class="top-partner-item__image" style="-webkit-mask-image: url(&quot;https://res.cloudinary.com/glovoapp/image/fetch/w_128,h_121,c_lpad,b_transparent,f_auto,q_auto:low,dpr_1.0/https://glovoapp.com/images/landing/partners-mask.svg&quot;);" data-v-15fdb478="">                    <div class="top-partners-title-wrapper">
+                        <h3 class="partners-title">
+                            TacoBell
+                        </h3>
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+        
+        <!-- 3RD Compactment -->
+        <section class="anything-delivered">
+                <h2 class="anything-title">Anything delivered</h2>
+                <div class="advantaged-systems">
+                    <div class="system">
+                        <img src="https://res.cloudinary.com/glovoapp/image/fetch//w_170,h_136,q_auto/https://glovoapp.com/images/why-glovo/restaurants.svg" role="presentation" data-test-id="why-glovo-element-image" width="170" height="136" class="why-glovo-element__image" data-v-16f5556f="">
+                        <h3 class="system-title">Your city's top restaurants</h3>
+                        <div class="system-element">
+                            "With a great variety of restaurants you can order your favourite food or" <span> explore new restaurants nearby!</span>
+                        </div>
+                    </div>
+                    <div class="system">
+                        <img src="https://res.cloudinary.com/glovoapp/image/fetch//w_170,h_136,q_auto/https://glovoapp.com/images/why-glovo/delivery.svg" role="presentation" data-test-id="why-glovo-element-image" width="170" height="136" class="why-glovo-element__image" data-v-16f5556f="">
+                        <h3 class="system-title">Fast delivery</h3>
+                        <div class="system-element">
+                            "We pride ourselves on speed. Order or send anything in your city and" <span> we'll pick it up and deliver it in minutes.</span>
+                        </div>
+                    </div>
+                    <div class="system">
+                        <img src="https://res.cloudinary.com/glovoapp/image/fetch//w_170,h_136,q_auto/https://glovoapp.com/images/why-glovo/groceries.svg" role="presentation" data-test-id="why-glovo-element-image" width="170" height="136" class="why-glovo-element__image" data-v-16f5556f="">
+                        <h3 class="system-title">Groceries delivery & more</h3>
+                        <div class="system-element">
+                            "Find anything you need! From" <span> supermarkets to shops, pharmacies to florists</span> — if it's in your city you can count on us to get it.
+                        </div>
+                    </div>
+                    <div class="button-wrapper">
+                        <button type="button" class="button-abilities"> Explore stores around you</button>
+                    </div>
+                </div> 
+          </section>
+          <div class="landing-links-wrapper landing-links-wrapper--top-and-bottom" style="--waves-desktop:url(https\:\/\/res\.cloudinary\.com\/glovoapp\/image\/fetch\/\/q_auto\/https\:\/\/glovoapp\.com\/images\/landing\/waves\/landing-links-waves-desktop\.svg); --waves-mobile:url(https\:\/\/res\.cloudinary\.com\/glovoapp\/image\/fetch\/\/q_auto\/https\:\/\/glovoapp\.com\/images\/landing\/waves\/landing-links-waves-mobile\.svg); --bottom-wave-desktop:url(https\:\/\/res\.cloudinary\.com\/glovoapp\/image\/fetch\/\/q_auto\/https\:\/\/glovoapp\.com\/images\/waves\/address-jumbotron-wave-desktop\.svg); --bottom-wave-mobile:url(https\:\/\/res\.cloudinary\.com\/glovoapp\/image\/fetch\/\/q_auto\/https\:\/\/glovoapp\.com\/images\/waves\/address-jumbotron-wave-mobile\.svg);" data-v-4f85d6a8=""><div data-test-id="location-links" class="location-links" data-v-33b30f60=""><img src="https://res.cloudinary.com/glovoapp/image/fetch//w_140,h_140,q_auto/https://glovoapp.com/images/landing/countries.svg" alt="Countries where we deliver" data-test-id="location-title-image" width="140" height="140" role="presentation" data-v-33b30f60=""> <h2 data-test-id="location-title" class="heading-h2 location-links__title heading-h2--bigger" data-v-2013283c="" data-v-33b30f60="">
+            Countries where we deliver
+          </h2> <div data-test-id="location-link-container" class="location-links__links-container" data-v-33b30f60=""><a href="/es/es/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Spain
+            </a><a href="/it/it/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Italy
+            </a><a href="/ua/uk/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Ukraine
+            </a><a href="/ro/ro/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Romania
+            </a><a href="/ge/ka/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Georgia
+            </a><a href="/pt/pt/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Portugal
+            </a><a href="/pl/pl/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Poland
+            </a><a href="/ma/fr/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Morocco
+            </a><a href="/kz/ru/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Kazakhstan
+            </a><a href="/hr/hr/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Croatia
+            </a><a href="/ke/en/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Kenya
+            </a><a href="/ci/fr/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Côte D'Ivoire
+            </a><a href="/rs/sr/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Serbia
+            </a><a href="/md/ro/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Moldova
+            </a><a href="/ug/en/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Uganda
+            </a><a href="/kg/ru/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Kyrgyzstan
+            </a><a href="/ba/bs/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Bosnia and Herzegovina
+            </a><a href="/bg/bg/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Bulgaria
+            </a><a href="/gh/en/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Ghana
+            </a><a href="/me/sr/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Montenegro
+            </a><a href="/si/sl/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Slovenia
+            </a><a href="/ng/en/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Nigeria
+            </a><a href="/am/hy/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Armenia
+            </a><a href="/ad/ca/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Andorra
+            </a><a href="/tn/fr/" data-test-id="location-link" class="location-links__link" data-v-33b30f60="">
+              Tunisia
+            </a></div> <!----></div></div>
     </main>
+
 </body>
 </html>
